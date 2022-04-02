@@ -87,7 +87,7 @@ li > a {
 .aboutUsFont{
   font-family: "Inter";
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 800px;
   line-height: 24px;
   color:var(--main-color);
 }
@@ -104,4 +104,39 @@ h1{
   color: var(--text-color);
   margin-top: 16px;
   width: 60%;
+}
+.metricsContainer{
+  display: flex;
+  justify-content: space-between;
+  align-self: start;
+  margin-top: 3%;
+
+
+}
+.metricsDescriptionContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 10%;
+  width: 280px;
+}
+.bigText{
+  font-size:60px ;
+  font-family: "Inter";
+  color: var(--main-color);
+  font-weight: 600px;
+}
+.mainMetricsText{
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-text-color);
+}
+.metricsDescription{
+  color: var(--text-color);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
 }
