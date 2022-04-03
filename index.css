@@ -9,6 +9,7 @@
   --text-color: #667085;
   --main-color: #8E2424;
   --main-text-color:#101828;
+  --background-text:#8E24240D;
 }
 body {
   background-color: #fff;
@@ -139,4 +140,39 @@ h1{
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
+}
+.findingForTalents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.open{
+  background-color:var(--background-text) ;
+  margin-top: 7%;
+  width: 9%;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+  font-family: "Inter";
+  font-size: 14px;
+  color: var(--main-color);
+}
+h2{
+  margin: 2% 0;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--main-text-color);
+}
+.forTalentsDescription{
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+.people{
+  margin: 3% 0;
+  width:100%;
 }
