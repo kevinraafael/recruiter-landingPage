@@ -129,7 +129,7 @@ h1{
 }
 .mainMetricsText{
   font-family: "Inter";
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 28px;
   color: var(--main-text-color);
@@ -175,4 +175,50 @@ h2{
 .people{
   margin: 3% 0;
   width:100%;
+}
+.jobs{
+  display: flex;
+  flex-direction: column;
+  margin-left: 17%;
+}
+.mainJobTitle{
+  font-family: "Inter";
+  font-size: 20px;
+  color: var(--main-text-color);
+  font-weight: 500;
+  margin-top: 5%;
+}
+.jobContainer{
+  width: 70%;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 32px;
+  padding-left: 24px;
+  border: 1px solid #EAECF0;
+  box-sizing: border-box;
+  border-radius: 16px;
+  
+}
+.jobSubtitile{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-text-color);
+}
+.jobInformation{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.jobDescription{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
 }
