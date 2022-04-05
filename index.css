@@ -10,6 +10,7 @@
   --main-color: #8E2424;
   --main-text-color:#101828;
   --background-text:#8E24240D;
+  --background-feedback:#c4191908;
 }
 body {
   background-color: #fff;
@@ -85,7 +86,7 @@ li > a {
   align-items: center;
  margin-top: 7%;
 }
-.aboutUsFont{
+.redAndBoldText{
   font-family: "Inter";
   font-size: 16px;
   font-weight: 800px;
@@ -221,4 +222,48 @@ h2{
   font-size: 16px;
   line-height: 24px;
   color: var(--text-color);
+}
+.feedbacks{
+  background-color: var(--background-feedback);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 64px;
+  height: 40%;
+}
+#picture{
+  width: 56px;
+  height: 56px;
+  margin: 32px 0px 16px;
+}
+.feedbackTextContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+ 
+}
+h3{
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+}
+.username{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--main-text-color);
+}
+.userJob{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color:var(--text-color);
 }
