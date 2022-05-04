@@ -1,7 +1,7 @@
 # 7 days of Code Html e Css
 
 <p align="center">
-    <img width="800" src="/src/assets/overview.gif">
+    <img width="800" src="assets/overview.gif">
  </p
 
 # Descrição
